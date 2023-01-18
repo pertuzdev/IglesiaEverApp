@@ -1,0 +1,12 @@
+import * as React from 'react';
+import Svg, { Path } from 'react-native-svg';
+import { SvgProps } from './types';
+
+export const BackArrow: React.FC<SvgProps> = ({ width, height, color }) => (
+  <Svg width={width} height={height} viewBox='0 0 448 512'>
+    <Path
+      fill={color}
+      d='M447.1 256c0 17.7-13.4 32-31.1 32H109.3l105.4 105.4c12.5 12.5 12.5 32.75 0 45.25-6.3 6.25-14.5 9.35-22.7 9.35s-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25l160-160c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25L109.3 224H416c17.7 0 31.1 14.3 31.1 32z'
+    />
+  </Svg>
+);
