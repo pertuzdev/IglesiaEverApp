@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "982589245293",
+    "project_id": "iglesiaeverapp",
+    "storage_bucket": "iglesiaeverapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982589245293:android:9839719008a9864cfe3c64",
+        "android_client_info": {
+          "package_name": "com.iglesiaeverapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982589245293-hb626fgilab0slj6tr9g0h8pp9io76jo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBXbMOFOAY6UlqjT5OFb_DU6WCTc5pcje0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982589245293-hb626fgilab0slj6tr9g0h8pp9io76jo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
