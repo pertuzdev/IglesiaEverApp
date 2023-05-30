@@ -4,7 +4,13 @@ import { useNavigation } from '@react-navigation/native';
 import { Slides } from './CarouselSlide';
 
 const { height } = Dimensions.get('screen');
-
+/**
+ * 
+ * @param param0 
+ * @returns 
+ * use_frameworks! :linkage => :static
+$RNFirebaseAsStaticFramework = true
+ */
 export const Carousel: React.FC<any> = ({ images }) => {
   const navigation = useNavigation();
   const [selectedIndex, setSelectedIndex] = useState(0);
@@ -45,7 +51,7 @@ export const Carousel: React.FC<any> = ({ images }) => {
       pagingEnabled
       initialScrollIndex={0}
       snapToInterval={height}
-      decelerationRate='fast'
+      decelerationRate="fast"
       bounces={false}
       showsVerticalScrollIndicator={false}
       data={images}
